@@ -1,4 +1,4 @@
-# SMN TiePre Overlay API
+# SMN TiePre Banner API
 
 Mini API con FastAPI que:
 1) descarga el TXT `tiepreYYYYMMDD.txt` del SMN (por fecha, hoy por defecto),
