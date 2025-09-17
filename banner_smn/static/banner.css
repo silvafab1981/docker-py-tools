@@ -1,0 +1,52 @@
+/* ===== Banner TV-like ===== */
+:root{
+  --banner-scale: 1;
+  --banner-height: 72px;
+  --banner-radius: 10px;
+  --red: #c52522;
+}
+
+.smn-stage{
+  position: fixed;
+  inset: 12px auto auto 12px;  /* arriba-izquierda */
+  z-index: 99999;
+  transform: scale(var(--banner-scale));
+  transform-origin: top left;
+}
+
+.banner{
+  height: var(--banner-height);
+  min-width: 780px;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  background: linear-gradient(#fff,#ececec);
+  color:#0f0f10;
+  border-radius: var(--banner-radius);
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+  padding: 0 10px 0 14px;
+}
+
+.banner-main{
+  flex:1 1 auto; display:flex; align-items:center; gap:14px;
+  text-transform:uppercase; letter-spacing:.6px; font-weight:900;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+.banner-city{
+  font-size: calc(var(--banner-height)*.42);
+  line-height:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:60ch;
+}
+.banner-sep{ opacity:.35; font-size:calc(var(--banner-height)*.38); transform:translateY(-1px); }
+.banner-temp{ font-size:calc(var(--banner-height)*.50); line-height:1; white-space:nowrap; }
+
+.banner-right{
+  flex:0 0 auto; display:grid; place-items:center;
+  width:160px; height:calc(var(--banner-height) - 10px);
+  background:var(--red); color:#fff; /*border-radius:8px;*/ padding:6px 10px;
+  box-shadow:0 6px 14px rgba(197,37,34,.35);
+}
+.banner-live{ font-weight:900; letter-spacing:.8px; font-size:.92rem; margin-bottom:4px; }
+.banner-clock{ font-weight:800; font-size:calc(var(--banner-height)*.38); line-height:1; }
+
+/* Opcional: leve “tick” al cambiar sólo letras (sin borrar el banner) */
+.text-tick{ animation: tick .3s ease; }
+@keyframes tick { from{opacity:.75} to{opacity:1} }

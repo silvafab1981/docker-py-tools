@@ -1,0 +1,120 @@
+// ===== Banner: refresca SOLO TEXTO (hora en cuadro rojo, temp en banner) =====
+const $  = sel => document.querySelector(sel);
+const cityEl = $('#b-city');
+const tempEl = $('#b-temp');
+const clockEl = $('#b-clock');
+
+function hhmm(){
+  return new Date().toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit', hour12:false});
+}
+function setText(el, txt){
+  if (!el) return;
+  const s = String(txt);
+  if (el.textContent !== s) {
+    el.textContent = s;
+    // leve realce sin rearmar el DOM
+    el.classList.remove('text-tick');
+    void el.offsetWidth; // reflow
+    el.classList.add('text-tick');
+  }
+}
+
+async function fetchJSON(url, {timeoutMs=8000}={}){
+  const ctrl = new AbortController();
+  const t = setTimeout(()=>ctrl.abort(), timeoutMs);
+  try{
+    const r = await fetch(url, {cache:'no-store', signal: ctrl.signal});
+    if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+    return await r.json();
+  } finally { clearTimeout(t); }
+}
+
+async function getConfig(){
+  const cfg = await fetchJSON('/api/overlay/config').catch(()=>({}));
+  return {
+    cities: cfg.cities || [],
+    labels: cfg.labels || {},
+    cycle: Math.max(2, parseInt(cfg.cycle || 15, 10)),
+    liveEvery: Math.max(1, parseInt(cfg.live_every || 5, 10)),
+  };
+}
+function displayNameFor(it, labels){ return (labels && labels[it.ciudad]) || it.ciudad; }
+
+async function getItems(cities){
+  const qs = new URLSearchParams({ cities: (cities||[]).join(',') });
+  const data = await fetchJSON('/api/weather?' + qs).catch(()=>({}));
+  return (data && data.items) ? data.items : [];
+}
+
+(async function main(){
+  const cfg = await getConfig();
+  const cities = cfg.cities, labels = cfg.labels;
+  const cycle  = cfg.cycle,  liveEvery = cfg.liveEvery;
+
+  let items = await getItems(cities);
+  // mantener el orden de cities
+  const order = new Map(cities.map((c,i)=>[String(c).toLowerCase(), i]));
+  items.sort((a,b)=> (order.get((a.ciudad||'').toLowerCase()) ?? 999) - (order.get((b.ciudad||'').toLowerCase()) ?? 999));
+
+  let lastTemp = '—';
+  let idx = 0;
+  let sinceLive = 0;
+
+  // Primer render
+  if (items.length){
+    const it = items[0];
+    const temp = (it.temperatura ?? '—') + '°C';
+    lastTemp = temp;
+    setText(cityEl, displayNameFor(it, labels));
+    setText(tempEl, temp);
+    idx = 1 % items.length;
+    sinceLive = 1;
+  } else {
+    setText(cityEl, 'EN VIVO'); // sin datos iniciales
+    setText(tempEl, lastTemp);  // queda '—'
+    sinceLive = 0;
+  }
+  setText(clockEl, hhmm());
+
+  // Reloj del cuadro rojo (sólo hora)
+  setInterval(()=> setText(clockEl, hhmm()), 5_000);
+
+  // Rotación (sin borrar el banner)
+  setInterval(()=>{
+    if (sinceLive >= liveEvery){
+      // Paso EN VIVO: solo cambia el título a la izquierda, conserva última temp
+      //setText(cityEl, 'EN VIVO');
+      //setText(tempEl, lastTemp);
+      sinceLive = 0;
+      return;
+    }
+    if (!items.length){
+      setText(cityEl, 'EN VIVO');
+      setText(tempEl, lastTemp);
+      return;
+    }
+    const it = items[idx % items.length];
+    const city = displayNameFor(it, labels);
+    const temp = (it.temperatura ?? '—') + '°C';
+    lastTemp = temp; // recordamos la última TEMP válida
+    setText(cityEl, city);
+    setText(tempEl, temp);
+    idx = (idx + 1) % Math.max(items.length,1);
+    sinceLive++;
+  }, cycle * 1000);
+
+  // Refresco de datos (no borra el banner)
+  setInterval(async ()=>{
+    try{
+      const fresh = await getItems(cities);
+      if (fresh && fresh.length){
+        fresh.sort((a,b)=> (order.get((a.ciudad||'').toLowerCase()) ?? 999) - (order.get((b.ciudad||'').toLowerCase()) ?? 999));
+        items = fresh;
+        idx = idx % items.length;
+      }
+    }catch(e){ console.warn('refresh error', e); }
+  }, 60_000);
+
+  // Mantener dataset del backend fresco (silencioso)
+  setInterval(async ()=>{ try{ await fetch('/api/tiepre'); }catch{} }, 5*60_000);
+})();

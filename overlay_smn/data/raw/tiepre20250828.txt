@@ -1,0 +1,120 @@
+Azul;28-agosto-2025;15:00;Algo nublado;15 km;20.6;No se calcula; 51;Norte  16;1003.8 / 
+Bahía Blanca;28-agosto-2025;15:00;Parcialmente nublado;15 km;23.6;No se calcula; 34;Norte  31;1008.8 / 
+Benito Juárez;28-agosto-2025;15:00;Parcialmente nublado;15 km;20.4;No se calcula; 54;Norte  14;996 / 
+Bolívar;28-agosto-2025;15:00;Nublado;15 km;21;No se calcula; 55;Noreste  44;1009.3 / 
+Campo de Mayo;28-agosto-2025;15:00;Despejado;10 km;21.3;No se calcula; 51;Este  18;1018.8 / 
+Coronel Suarez;28-agosto-2025;15:00;Nublado con bruma;10 km;21.2;No se calcula; 40;Norte  27;991.4 / 
+Dolores;28-agosto-2025;15:00;Algo nublado;10 km;20.1;No se calcula; 66;Norte  13;1021.6 / 
+El Palomar;28-agosto-2025;15:00;Despejado;10 km;21;No se calcula; 47;Este  14;1020 / 
+Ezeiza;28-agosto-2025;15:00;Algo nublado con humo;10 km;21.3;No se calcula; 45;Este  16;1019.4 / 
+Junín;28-agosto-2025;15:00;Despejado;15 km;22.8;No se calcula; 39;Noreste  22;1010.5 / 
+La Plata;28-agosto-2025;15:00;Algo nublado;10 km;19.2;No se calcula; 67;Noreste  14;1020.5 / 
+Las Flores;28-agosto-2025;15:00;Algo nublado;15 km;21;No se calcula; 57;Noreste  3;1016.8 / 
+Mar del Plata;28-agosto-2025;15:00;Algo nublado;10 km;16.1;No se calcula; 76;Este  18;1021 / 
+Mariano Moreno;28-agosto-2025;15:00;Algo nublado;10 km;22.1;No se calcula; 50;Noreste  13;1017.3 / 
+Merlo;28-agosto-2025;16:00;Algo nublado;10 km;21.5;No se calcula; 48;Noreste  13;1018.6 / 
+Morón;28-agosto-2025;15:00;Despejado;10 km;21.5;No se calcula; 54;Este  13;1018.2 / 
+Nueve de Julio;28-agosto-2025;15:00;Parcialmente nublado;15 km;23.1;No se calcula; 43;Noreste  14;1011.2 / 
+Olavarría;28-agosto-2025;15:00;Algo nublado;15 km;21.2;No se calcula; 53;Norte  20;1001.3 / 
+Pehuajó;28-agosto-2025;15:00;Parcialmente nublado;15 km;21.4;No se calcula; 54;Noreste  20;1009.4 / 
+Pigué;28-agosto-2025;15:00;Nublado;20 km;20.3;No se calcula; 59;Norte  44;982 / 
+Punta Indio B.A.;28-agosto-2025;16:00;Despejado;10 km;16.8;No se calcula; 82;Este  14;1020.6 / 
+San Fernando;28-agosto-2025;15:00;Algo nublado;10 km;19.9;No se calcula; 65;Este  18;1020.8 / 
+Tandil;28-agosto-2025;15:00;Parcialmente nublado;20 km;19.7;No se calcula; 51;Norte  24;1001 / 
+Trenque Lauquen;28-agosto-2025;15:00;Parcialmente nublado;15 km;23.1;No se calcula; 39;Norte  14;1007.3 / 
+Tres Arroyos;28-agosto-2025;15:00;Parcialmente nublado;15 km;21.7;No se calcula; 46;Norte  13;1006.4 / 
+Villa Gesell;28-agosto-2025;15:00;Algo nublado;10 km;18.1;No se calcula; 74;Noreste  18;1022.8 / 
+Aeroparque Buenos Aires;28-agosto-2025;15:00;Algo nublado;10 km;17.7;No se calcula; 81;Este  14;1021.7 / 
+Buenos Aires;28-agosto-2025;15:00;Despejado;10 km;21.1;No se calcula; 55;Norte  11;1018.9 / 
+Catamarca;28-agosto-2025;15:00;Despejado;20 km;29.2;No se calcula; 16;Noreste  42;958.8 / 
+Tinogasta;28-agosto-2025;12:00;Despejado;20 km;20.2;No se calcula; 20;Norte  3;879.5 / 
+Pcia. Roque Saenz Peña;28-agosto-2025;15:00;Despejado;20 km;25.4;No se calcula; 45;Este  13;1006.6 / 
+Resistencia;28-agosto-2025;15:00;Algo nublado con humo;10 km;26.5;26.9; 48;Este  5;1012 / 
+Comodoro Rivadavia;28-agosto-2025;15:00;Nublado;30 km;13.3;No se calcula; 70;Sudeste  7;1008.4 / 
+Esquel;28-agosto-2025;15:00;Algo nublado;30 km;14.4;No se calcula; 46;Sur  13;921 / 
+Paso De Indios;28-agosto-2025;15:00;Parcialmente nublado;45 km;17.4;No se calcula; 37;Noreste  7;956.5 / 
+Puerto Madryn;28-agosto-2025;15:00;Parcialmente nublado;30 km;15;No se calcula; 68;Este  16;996 / 
+Trelew;28-agosto-2025;15:00;Parcialmente nublado;30 km;17.1;No se calcula; 64;Sudeste  14;1007.7 / 
+Córdoba;28-agosto-2025;15:00;Algo nublado;15 km;24;No se calcula; 24;Noreste  33;958.6 / 
+Córdoba Observatorio;28-agosto-2025;15:00;Algo nublado;10 km;24.6;No se calcula; 28;Noreste  18;966.9 / 
+Esc. Aviación Militar;28-agosto-2025;15:00;Despejado con bruma;8 km;24.4;No se calcula; 29;Norte  22;958.8 / 
+Laboulaye;28-agosto-2025;15:00;Parcialmente nublado;10 km;24.5;No se calcula; 28;Norte  33;1001.8 / 
+Marcos Juárez;28-agosto-2025;15:00;Algo nublado;20 km;23.5;No se calcula; 43;Noreste  20;1005.4 / 
+Pilar Obs.;28-agosto-2025;15:00;Algo nublado;10 km;24.1;No se calcula; 24;Noreste  22;977.6 / 
+Río Cuarto;28-agosto-2025;15:00;Algo nublado;15 km;25;No se calcula; 35;Norte  40;966.2 / 
+Villa Dolores;28-agosto-2025;15:00;Algo nublado con bruma;30 km;26.6;No se calcula; 16;Noroeste  24;949.2 / 
+Villa María Del Río Seco;28-agosto-2025;15:00;Despejado con bruma;8 km;25.4;No se calcula; 34;Noreste  14;977 / 
+Corrientes;28-agosto-2025;15:00;Parcialmente nublado con humo;8 km;25;No se calcula; 51;Sudeste  9;1010.9 / 
+Ituzaingó;28-agosto-2025;15:00;Algo nublado con humo;4.0 km;27.2;28.4; 60;Sudeste  7;1009.4 / 
+Mercedes;28-agosto-2025;15:00;Algo nublado;15 km;25.4;No se calcula; 52;Este  7;1006.4 / 
+Monte Caseros;28-agosto-2025;15:00;Algo nublado;20 km;23.6;No se calcula; 58;Este  13;1013.8 / 
+Paso De Los Libres;28-agosto-2025;15:00;Algo nublado;10 km;23.4;No se calcula; 69;Este  13;1011.7 / 
+Concordia;28-agosto-2025;15:00;Algo nublado;15 km;23.5;No se calcula; 50;Este  9;1016.4 / 
+Gualeguaychú;28-agosto-2025;15:00;Algo nublado;15 km;22.7;No se calcula; 52;Noreste  14;1018.1 / 
+Paraná;28-agosto-2025;15:00;Despejado;15 km;23;No se calcula; 42;Noreste  11;1010.1 / 
+Formosa;28-agosto-2025;15:00;Algo nublado;20 km;26.1;25.5; 49;Sudeste  13;1010.6 / 
+Las Lomitas;28-agosto-2025;15:00;Despejado;20 km;28;No se calcula; 25;Sudeste  7;1001.7 / 
+Mount Pleasant Airport (Islas Malvinas);28-agosto-2025;15:00;Parcialmente nublado;20 km;8.4;6.0; 53;Noroeste  14;1013.2 / 
+La Quiaca;28-agosto-2025;16:00;Despejado;30 km;15.8;No se calcula; 22;Norte  9;673.7 / 
+Jujuy;28-agosto-2025;15:00;Despejado con humo;15 km;24.7;No se calcula; 23;Este  14;913.8 / 
+Jujuy Universidad Nacional;28-agosto-2025;15:00;Despejado;15 km;24.2;No se calcula; 25;Este  9;871.3 / 
+General Pico;28-agosto-2025;15:00;Parcialmente nublado;20 km;24.6;No se calcula; 23;Norte  31;998.9 / 
+Victorica;28-agosto-2025;15:00;Nublado con polvo levantado por viento;20 km;25.6;No se calcula; 24;Noreste  44;976.8 / 
+Santa Rosa;28-agosto-2025;15:00;Nublado con polvo levantado por viento;15 km;24;No se calcula; 29;Norte  35;992.8 / 
+Chamical;28-agosto-2025;15:00;Despejado con bruma;15 km;25.2;No se calcula; 22;Este  24;961.7 / 
+Chepes;28-agosto-2025;15:00;Despejado;15 km;24.4;No se calcula; 19;Norte  24;939.8 / 
+Chilecito;28-agosto-2025;09:00;Despejado con bruma;15 km;6.2;No se calcula; 61;Norte  3;914.3 / 
+La Rioja;28-agosto-2025;15:00;Despejado;20 km;25.2;No se calcula; 23;Sur  5;963.4 / 
+Malargue;28-agosto-2025;15:00;Parcialmente nublado;20 km;19.4;No se calcula; 17;Sudeste  7;855.4 / 
+Mendoza;28-agosto-2025;15:00;Parcialmente nublado;15 km;23.8;No se calcula; 14;Norte  20;931.3 / 
+Mendoza Observatorio;28-agosto-2025;15:00;Algo nublado;15 km;23.8;No se calcula; 23;Noreste  7;918 / 
+San Martín (Mza);28-agosto-2025;15:00;Algo nublado;15 km;25.1;No se calcula; 16;Norte  13;936.4 / 
+San Rafael;28-agosto-2025;15:00;Parcialmente nublado;20 km;25.5;No se calcula; 14;Norte  33;925.7 / 
+Uspallata;28-agosto-2025;15:00;Parcialmente nublado;15 km;19.6;No se calcula; 13;Sudoeste  3;810.6 / 
+Bernardo De Irigoyen;28-agosto-2025;15:00;Parcialmente nublado;20 km;22.6;No se calcula; 64;Norte  14;926.6 / 
+Iguazú;28-agosto-2025;15:00;Algo nublado;20 km;25.6;No se calcula; 40;Noreste  9;987 / 
+Oberá;28-agosto-2025;09:00;Despejado;20 km;15.8;No se calcula; 71;Norte  3;990.4 / 
+Posadas;28-agosto-2025;15:00;Algo nublado con humo;5 km;27;27.3; 47;Este  11;1003.4 / 
+Chapelco;28-agosto-2025;15:00;Parcialmente nublado;15 km;17.5;No se calcula; 21;Sur  14;921.2 / 
+Neuquén;28-agosto-2025;15:00;Nublado;15 km;22.3;No se calcula; 27;Este  7;978.9 / 
+Bariloche;28-agosto-2025;15:00;Algo nublado;10 km;14.4;No se calcula; 37;Noroeste  11;916.4 / 
+El Bolsón;28-agosto-2025;15:00;Despejado;30 km;13;No se calcula; 68;Calma;975 / 
+Maquinchao;28-agosto-2025;16:00;Parcialmente nublado;40 km;19.4;No se calcula; 29;Calma;911.3 / 
+Río Colorado;28-agosto-2025;15:00;Parcialmente nublado con polvo levantado por viento;10 km;25.4;No se calcula; 33;Norte  24;1005.2 / 
+San Antonio Oeste;28-agosto-2025;15:00;Parcialmente nublado;30 km;27.2;No se calcula; 16;Norte  24;1011.7 / 
+Viedma;28-agosto-2025;15:00;Nublado con polvo levantado por viento;5 km;26.7;No se calcula; 22;Norte  25;1013.8 / 
+Metán;28-agosto-2025;15:00;Despejado con bruma;17 km;25;No se calcula; 22;Noreste  24;919.9 / 
+Orán;28-agosto-2025;15:00;Despejado;10 km;28.2;No se calcula; 22;Sudeste  9;973.8 / 
+Rivadavia;28-agosto-2025;15:00;Despejado;20 km;21.4;No se calcula; 42;Norte  3;996.8 / 
+Salta;28-agosto-2025;15:00;Despejado;15 km;23.2;No se calcula; 15;Este  18;880.6 / 
+Tartagal;28-agosto-2025;15:00;Despejado con humo;9 km;27.8;No se calcula; 16;Norte  3;964.1 / 
+Jachal;28-agosto-2025;15:00;Despejado;15 km;25.2;No se calcula; 13;Sur  9;880.4 / 
+San Juan;28-agosto-2025;15:00;Algo nublado;15 km;26.8;No se calcula; 14;Norte  7;943.2 / 
+San Luis;28-agosto-2025;14:00;Parcialmente nublado;20 km;24.2;No se calcula; 18;Noroeste  27;933 / 
+Santa Rosa del Conlara;28-agosto-2025;15:00;Algo nublado;20 km;24.2;No se calcula; 27;Noroeste  14;943.5 / 
+Villa Reynolds;28-agosto-2025;15:00;Parcialmente nublado;10 km;28.1;No se calcula; 13;Norte  25;957.7 / 
+El Calafate;28-agosto-2025;15:00;Parcialmente nublado;30 km;11.2;No se calcula; 41;Noroeste  7;995.7 / 
+Gobernador Gregores;28-agosto-2025;15:00;Nublado con llovizna en la hora anterior;45 km;8;4.1; 60;Sur  27;975 / 
+Perito Moreno;28-agosto-2025;15:00;Parcialmente nublado;50 km;12.6;No se calcula; 57;Oeste  9;964.8 / 
+Puerto Deseado;28-agosto-2025;15:00;Nublado con neblina;10 km;9;6.7; 78;Norte  14;1006 / 
+Río Gallegos;28-agosto-2025;15:00;Parcialmente nublado;30 km;11;No se calcula; 45;Sur  22;1016.4 / 
+San Julián;28-agosto-2025;15:00;Nublado;30 km;9.2;5.4; 82;Sudoeste  31;1011 / 
+Santa Cruz;28-agosto-2025;15:00;Nublado con precipitación a la vista;20 km;6.3;0.2; 78;Sur  55;1004 / 
+Ceres;28-agosto-2025;15:00;Despejado con humo;8 km;25.8;No se calcula; 26;Noreste  9;1007.7 / 
+Rafaela;28-agosto-2025;15:00;Despejado;10 km;25.2;No se calcula; 40;Noreste  14;1008.9 / 
+Reconquista;28-agosto-2025;15:00;Algo nublado con humo;10 km;25.3;No se calcula; 52;Noreste  13;1012.5 / 
+Rosario;28-agosto-2025;15:00;Despejado;15 km;23.9;No se calcula; 40;Norte  16;1016.4 / 
+Santa Fe;28-agosto-2025;15:00;Despejado;12 km;25.2;No se calcula; 38;Este  9;1017 / 
+Sunchales;28-agosto-2025;15:00;Despejado;15 km;24;No se calcula; 39;Este  14;1008.4 / 
+Venado Tuerto;28-agosto-2025;16:00;Algo nublado con bruma;9 km;23.2;No se calcula; 36;Norte  24;1005.8 / 
+Termas de Rio Hondo;28-agosto-2025;15:00;Despejado;12 km;25.4;No se calcula; 22;Sudoeste  18;982.7 / 
+Santiago del Estero;28-agosto-2025;15:00;Despejado;10 km;27.6;No se calcula; 23;Noreste  13;992.5 / 
+Río Grande B.A.;28-agosto-2025;15:00;Algo nublado;30 km;9.6;6.4; 52;Sudoeste  25;1015.4 / 
+Ushuaia;28-agosto-2025;15:00;Algo nublado;30 km;7.7;3.2; 56;Sudoeste  35;1010.5 / 
+Tucumán;28-agosto-2025;15:00;Despejado con humo;9 km;26.9;No se calcula; 22;Direcciones Variables  5;963.3 / 
+Base Belgrano II;28-agosto-2025;15:00;Cubierto;20 km;-17.7;-25.6; 73;Sudeste  13;967.8 / 
+Base Esperanza;28-agosto-2025;15:00;Cubierto con nevada;800 mts;-0.9;-7.2; 89;Noroeste  25;989.7 / 
+Base Carlini;28-agosto-2025;15:00;Parcialmente nublado con neblina;4.0 km;1.2;-7.4; 83;Noroeste  64;995 / 
+Base Marambio;28-agosto-2025;15:00;Cubierto;15 km;-6;-15.1; 64;Norte  37;966.1 / 
+Base Orcadas;28-agosto-2025;15:00;Cubierto;20 km;-6.6;-15.0; 88;Norte  29;1004.1 / 
+Base San Martín;28-agosto-2025;15:00;Cubierto con nevada;2.0 km;-0.2;-3.8; 97;Sur  11;982.4 / 

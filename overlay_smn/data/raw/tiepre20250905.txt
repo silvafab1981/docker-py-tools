@@ -1,0 +1,120 @@
+Azul;05-septiembre-2025;17:00;Algo nublado;15 km;9.8;8.9; 48;Sudoeste  7;1009.8 / 
+Bahía Blanca;05-septiembre-2025;17:00;Despejado;15 km;12.5;No se calcula; 45;Sur  9;1018.1 / 
+Benito Juárez;05-septiembre-2025;15:00;Parcialmente nublado;15 km;9.7;6.6; 66;Sur  24;1000.9 / 
+Bolívar;05-septiembre-2025;17:00;Despejado;15 km;13.2;No se calcula; 34;Sur  5;1017.2 / 
+Campo de Mayo;05-septiembre-2025;17:00;Despejado;10 km;12.5;No se calcula; 41;Sur  9;1025.6 / 
+Coronel Suarez;05-septiembre-2025;17:00;Despejado;15 km;12.7;No se calcula; 33;Sudoeste  9;999.3 / 
+Dolores;05-septiembre-2025;17:00;Parcialmente nublado;10 km;12;No se calcula; 48;Sudoeste  14;1026.2 / 
+El Palomar;05-septiembre-2025;17:00;Algo nublado;10 km;13.2;No se calcula; 27;Sudoeste  16;1026.8 / 
+Ezeiza;05-septiembre-2025;17:00;Algo nublado;10 km;12.4;No se calcula; 40;Sudoeste  13;1025.8 / 
+Junín;05-septiembre-2025;17:00;Despejado;15 km;12.8;No se calcula; 33;Sur  11;1019.2 / 
+La Plata;05-septiembre-2025;17:00;Despejado;10 km;12.6;No se calcula; 33;Sudoeste  11;1026 / 
+Las Flores;05-septiembre-2025;15:00;Parcialmente nublado;15 km;10.8;No se calcula; 63;Sudoeste  14;1023.6 / 
+Mar del Plata;05-septiembre-2025;17:00;Algo nublado;10 km;9.3;7.3; 69;Sur  13;1024.5 / 
+Mariano Moreno;05-septiembre-2025;17:00;Despejado;10 km;12.4;No se calcula; 30;Sudoeste  9;1024.4 / 
+Merlo;05-septiembre-2025;17:00;Despejado;10 km;12.6;No se calcula; 40;Sudoeste  9;1025.6 / 
+Morón;05-septiembre-2025;17:00;Despejado;10 km;13.1;No se calcula; 43;Sur  14;1024.9 / 
+Nueve de Julio;05-septiembre-2025;15:00;Despejado;15 km;14;No se calcula; 34;Oeste  14;1020 / 
+Olavarría;05-septiembre-2025;17:00;Parcialmente nublado;15 km;10.8;No se calcula; 45;Sur  13;1007.7 / 
+Pehuajó;05-septiembre-2025;17:00;Despejado;15 km;13.7;No se calcula; 30;Oeste  7;1018 / 
+Pigué;05-septiembre-2025;17:00;Despejado;20 km;11.6;No se calcula; 34;Sudoeste  9;990.8 / 
+Punta Indio B.A.;05-septiembre-2025;17:00;Parcialmente nublado;10 km;11.8;No se calcula; 56;Oeste  22;1026 / 
+San Fernando;05-septiembre-2025;17:00;Despejado;10 km;12.9;No se calcula; 37;Sudoeste  14;1027.3 / 
+Tandil;05-septiembre-2025;16:00;Parcialmente nublado;20 km;10.6;No se calcula; 56;Sudoeste  22;1006.1 / 
+Trenque Lauquen;05-septiembre-2025;15:00;Despejado;15 km;15.1;No se calcula; 35;Sudoeste  7;1017.7 / 
+Tres Arroyos;05-septiembre-2025;15:00;Nublado con lluvia;6 km;7.5;4.6; 76;Sur  16;1014.5 / 
+Villa Gesell;05-septiembre-2025;17:00;Parcialmente nublado;10 km;9.3;7.9; 70;Sur  9;1026.4 / 
+Aeroparque Buenos Aires;05-septiembre-2025;17:00;Despejado;10 km;13.4;No se calcula; 30;Sudoeste  9;1027.6 / 
+Buenos Aires;05-septiembre-2025;17:00;Despejado;10 km;14;No se calcula; 34;Sur  14;1025.2 / 
+Catamarca;05-septiembre-2025;17:00;Parcialmente nublado;20 km;19;No se calcula; 26;Norte  14;968.4 / 
+Tinogasta;05-septiembre-2025;15:00;Cubierto;20 km;13.2;No se calcula; 61;Sur  9;883.7 / 
+Pcia. Roque Saenz Peña;05-septiembre-2025;17:00;Algo nublado;20 km;16.5;No se calcula; 35;Sur  13;1014.6 / 
+Resistencia;05-septiembre-2025;17:00;Algo nublado;15 km;15.5;No se calcula; 42;Sur  14;1019.7 / 
+Comodoro Rivadavia;05-septiembre-2025;17:00;Algo nublado;30 km;18.7;No se calcula; 19;Oeste  11;1014.6 / 
+Esquel;05-septiembre-2025;17:00;Despejado;30 km;13.4;No se calcula; 20;Norte  20;928.2 / 
+Paso De Indios;05-septiembre-2025;15:00;Algo nublado;45 km;16.1;No se calcula; 28;Noreste  7;966.1 / 
+Puerto Madryn;05-septiembre-2025;17:00;Despejado;30 km;12.4;No se calcula; 44;Este  16;1007.6 / 
+Trelew;05-septiembre-2025;17:00;Despejado;30 km;17.3;No se calcula; 18;Noroeste  11;1019 / 
+Córdoba;05-septiembre-2025;17:00;Algo nublado;15 km;12.9;No se calcula; 42;Este  16;968.1 / 
+Córdoba Observatorio;05-septiembre-2025;17:00;Algo nublado;10 km;13.4;No se calcula; 44;Este  11;976.8 / 
+Esc. Aviación Militar;05-septiembre-2025;17:00;Parcialmente nublado;10 km;12.2;No se calcula; 47;Noreste  14;968.5 / 
+Laboulaye;05-septiembre-2025;17:00;Despejado;10 km;14.1;No se calcula; 27;Norte  3;1011.7 / 
+Marcos Juárez;05-septiembre-2025;17:00;Despejado;20 km;13.3;No se calcula; 37;Sur  7;1015 / 
+Pilar Obs.;05-septiembre-2025;17:00;Algo nublado;10 km;11;No se calcula; 41;Noreste  9;987.6 / 
+Río Cuarto;05-septiembre-2025;17:00;Despejado;15 km;14;No se calcula; 44;Noreste  29;976.2 / 
+Villa Dolores;05-septiembre-2025;17:00;Algo nublado;30 km;14.4;No se calcula; 41;Oeste  5;958.6 / 
+Villa María Del Río Seco;05-septiembre-2025;17:00;Algo nublado;15 km;14.6;No se calcula; 49;Sur  14;986.4 / 
+Corrientes;05-septiembre-2025;17:00;Algo nublado;10 km;15.1;No se calcula; 43;Sur  22;1018.4 / 
+Ituzaingó;05-septiembre-2025;15:00;Parcialmente nublado;15 km;14;No se calcula; 67;Sudeste  18;1015.3 / 
+Mercedes;05-septiembre-2025;17:00;Despejado;15 km;14.2;No se calcula; 38;Este  18;1014 / 
+Monte Caseros;05-septiembre-2025;17:00;Algo nublado;20 km;13.8;No se calcula; 43;Sur  20;1020.4 / 
+Paso De Los Libres;05-septiembre-2025;17:00;Despejado;10 km;14;No se calcula; 45;Sudeste  20;1018.2 / 
+Concordia;05-septiembre-2025;17:00;Despejado;15 km;13.4;No se calcula; 34;Sur  18;1023.6 / 
+Gualeguaychú;05-septiembre-2025;17:00;Despejado;15 km;13;No se calcula; 51;Sudeste  7;1025.8 / 
+Paraná;05-septiembre-2025;17:00;Despejado;15 km;12.8;No se calcula; 39;Sudeste  11;1019.6 / 
+Formosa;05-septiembre-2025;17:00;Cubierto;20 km;14.1;No se calcula; 57;Sur  25;1017.7 / 
+Las Lomitas;05-septiembre-2025;17:00;Parcialmente nublado;20 km;17.8;No se calcula; 24;Sur  24;1008.8 / 
+Mount Pleasant Airport (Islas Malvinas);05-septiembre-2025;17:00;Cubierto;20 km;6.5;1.9; 82;Oeste  31;999.5 / 
+La Quiaca;05-septiembre-2025;17:00;Algo nublado;30 km;20;No se calcula; 35;Noroeste  24;671.2 / 
+Jujuy;05-septiembre-2025;17:00;Cubierto con bruma;10 km;12.6;No se calcula; 49;Direcciones Variables  3;920.5 / 
+Jujuy Universidad Nacional;05-septiembre-2025;17:00;Cubierto;12 km;9;No se calcula; 78;Este  3;877.6 / 
+General Pico;05-septiembre-2025;17:00;Despejado;20 km;15.2;No se calcula; 32;Noreste  9;1010.3 / 
+Victorica;05-septiembre-2025;15:00;Despejado;40 km;15.3;No se calcula; 27;Este  3;990.2 / 
+Santa Rosa;05-septiembre-2025;17:00;Despejado;30 km;15.2;No se calcula; 28;Norte  9;1004.4 / 
+Chamical;05-septiembre-2025;17:00;Parcialmente nublado;20 km;16.3;No se calcula; 32;Este  9;970.9 / 
+Chepes;05-septiembre-2025;15:00;Cubierto;15 km;15.8;No se calcula; 37;Calma;950.2 / 
+Chilecito;05-septiembre-2025;09:00;Nublado con precipitación a la vista;15 km;7.8;No se calcula; 86;Sur  3;921.8 / 
+La Rioja;05-septiembre-2025;17:00;Nublado;20 km;16.6;No se calcula; 40;Oeste  11;972.6 / 
+Malargue;05-septiembre-2025;17:00;Despejado;20 km;10.2;No se calcula; 40;Este  9;862.6 / 
+Mendoza;05-septiembre-2025;17:00;Algo nublado;15 km;14.6;No se calcula; 35;Norte  9;941.5 / 
+Mendoza Observatorio;05-septiembre-2025;17:00;Algo nublado;15 km;14;No se calcula; 41;Este  7;927.4 / 
+San Martín (Mza);05-septiembre-2025;17:00;Algo nublado;15 km;15.9;No se calcula; 31;Este  9;946.8 / 
+San Rafael;05-septiembre-2025;17:00;Despejado;20 km;13.6;No se calcula; 31;Norte  24;936.6 / 
+Uspallata;05-septiembre-2025;15:00;Despejado;15 km;11.6;No se calcula; 29;Sur  3;815.4 / 
+Bernardo De Irigoyen;05-septiembre-2025;15:00;Cubierto con llovizna;500 mts;9.4;7.2; 100;Sur  14;925.8 / 
+Iguazú;05-septiembre-2025;17:00;Cubierto;20 km;12.5;No se calcula; 91;Sudoeste  14;988.4 / 
+Oberá;05-septiembre-2025;15:00;Cubierto;20 km;15.8;No se calcula; 81;Este  3;985.7 / 
+Posadas;05-septiembre-2025;17:00;Parcialmente nublado;20 km;14.5;No se calcula; 62;Sudeste  18;1008.4 / 
+Chapelco;05-septiembre-2025;17:00;Despejado;15 km;13.6;No se calcula; 23;Este  18;929.2 / 
+Neuquén;05-septiembre-2025;17:00;Despejado;15 km;15.4;No se calcula; 22;Noreste  14;991.8 / 
+Bariloche;05-septiembre-2025;17:00;Despejado;10 km;12.5;No se calcula; 17;Norte  13;925.6 / 
+El Bolsón;05-septiembre-2025;15:00;Despejado;30 km;14.1;No se calcula; 28;Calma;983.8 / 
+Maquinchao;05-septiembre-2025;17:00;Despejado;40 km;12.9;No se calcula; 49;Sur  3;920.6 / 
+Río Colorado;05-septiembre-2025;15:00;Despejado;15 km;14.6;No se calcula; 31;Sudoeste  3;1018 / 
+San Antonio Oeste;05-septiembre-2025;17:00;Despejado;30 km;16.7;No se calcula; 19;Norte  18;1024.8 / 
+Viedma;05-septiembre-2025;17:00;Despejado;30 km;12.1;No se calcula; 53;Sudeste  20;1026 / 
+Metán;05-septiembre-2025;15:00;Nublado con bruma;15 km;14;No se calcula; 43;Sudeste  3;927.7 / 
+Orán;05-septiembre-2025;17:00;Cubierto;10 km;19.3;No se calcula; 32;Calma;981.3 / 
+Rivadavia;05-septiembre-2025;15:00;Cubierto;20 km;21.4;No se calcula; 21;Sudeste  3;1000 / 
+Salta;05-septiembre-2025;17:00;Cubierto;15 km;9.8;7.9; 54;Norte  13;886.2 / 
+Tartagal;05-septiembre-2025;15:00;Cubierto;10 km;18.6;No se calcula; 26;Sur  14;972.1 / 
+Jachal;05-septiembre-2025;15:00;Parcialmente nublado;15 km;12.8;No se calcula; 38;Sudeste  9;890.2 / 
+San Juan;05-septiembre-2025;17:00;Algo nublado;15 km;15.6;No se calcula; 33;Sur  5;953.4 / 
+San Luis;05-septiembre-2025;17:00;Algo nublado;20 km;16.6;No se calcula; 34;Norte  14;941 / 
+Santa Rosa del Conlara;05-septiembre-2025;17:00;Despejado;20 km;14.9;No se calcula; 44;Noroeste  9;952.3 / 
+Villa Reynolds;05-septiembre-2025;17:00;Algo nublado;15 km;15.2;No se calcula; 34;Este  13;968.5 / 
+El Calafate;05-septiembre-2025;17:00;Parcialmente nublado;30 km;15;No se calcula; 30;Oeste  22;994.5 / 
+Gobernador Gregores;05-septiembre-2025;15:00;Parcialmente nublado;45 km;16.5;No se calcula; 27;Oeste  18;976.2 / 
+Perito Moreno;05-septiembre-2025;17:00;Algo nublado;50 km;14.1;No se calcula; 30;Calma;969.6 / 
+Puerto Deseado;05-septiembre-2025;17:00;Parcialmente nublado;30 km;11.2;No se calcula; 39;Oeste  24;1008.8 / 
+Río Gallegos;05-septiembre-2025;17:00;Algo nublado;30 km;13;No se calcula; 47;Oeste  48;1012.6 / 
+San Julián;05-septiembre-2025;17:00;Nublado;30 km;14.2;No se calcula; 42;Oeste  14;1011.7 / 
+Santa Cruz;05-septiembre-2025;15:00;Nublado con lluvia en la hora anterior;20 km;12.5;No se calcula; 53;Oeste  37;1004.2 / 
+Ceres;05-septiembre-2025;17:00;Despejado;15 km;15;No se calcula; 29;Sudeste  13;1016.9 / 
+Rafaela;05-septiembre-2025;12:00;Algo nublado;10 km;11.6;No se calcula; 48;Sudeste  7;1020.7 / 
+Reconquista;05-septiembre-2025;17:00;Despejado;15 km;14.4;No se calcula; 42;Sudeste  16;1021.3 / 
+Rosario;05-septiembre-2025;17:00;Despejado;15 km;13.3;No se calcula; 33;Sur  7;1025.6 / 
+Santa Fe;05-septiembre-2025;17:00;Despejado;12 km;13.9;No se calcula; 44;Sudeste  9;1026.8 / 
+Sunchales;05-septiembre-2025;17:00;Despejado;15 km;14;No se calcula; 35;Sudeste  9;1017.9 / 
+Venado Tuerto;05-septiembre-2025;17:00;Despejado;10 km;13;No se calcula; 34;Este  9;1015.6 / 
+Termas de Rio Hondo;05-septiembre-2025;17:00;Nublado;12 km;16.5;No se calcula; 36;Oeste  14;992.3 / 
+Santiago del Estero;05-septiembre-2025;17:00;Parcialmente nublado;10 km;18.8;No se calcula; 32;Noreste  5;1001.4 / 
+Río Grande B.A.;05-septiembre-2025;17:00;Algo nublado;30 km;11;No se calcula; 45;Oeste  42;1006.6 / 
+Ushuaia;05-septiembre-2025;17:00;Parcialmente nublado;30 km;6;-0.3; 74;Sudoeste  57;1001 / 
+Tucumán;05-septiembre-2025;17:00;Cubierto con humo;7 km;14.3;No se calcula; 42;Oeste  11;972.8 / 
+Base Belgrano II;05-septiembre-2025;15:00;Algo nublado;20 km;-18;-30.2; 46;Este  31;934.5 / 
+Base Esperanza;05-septiembre-2025;15:00;Parcialmente nublado;10 km;1.7;-2.6; 69;Sudoeste  16;973.8 / 
+Base Carlini;05-septiembre-2025;15:00;Parcialmente nublado;10 km;-0.9;-6.4; 83;Noroeste  20;978.5 / 
+Base Marambio;05-septiembre-2025;17:00;Algo nublado;15 km;-5.7;-10.4; 65;Oeste  11;951.2 / 
+Base Orcadas;05-septiembre-2025;15:00;Cubierto con nevada;6 km;-1.4;-7.3; 94;Norte  22;973.8 / 
+Base San Martín;05-septiembre-2025;15:00;Cubierto con nevada;1.5 km;-1.5;-5.4; 98;Norte  11;973.8 / 

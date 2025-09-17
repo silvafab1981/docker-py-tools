@@ -1,0 +1,40 @@
+name: overlay-smn                # (opcional) fija el nombre del proyecto/stack
+
+services:
+  overlay-smn:
+    container_name: overlay-smn
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /srv/overlay-smn
+    environment:
+      - TZ=America/Argentina/Buenos_Aires
+      - UVICORN_WORKERS=2
+      - UVICORN_PORT=8000
+      # Opcionales para la descarga SMN si tu red es estricta:
+      # - SMN_FORCE_HTTP=1
+      # - SMN_VERIFY_SSL=0
+      # - HTTPS_PROXY=http://usuario:pass@proxy:puerto
+      # - HTTP_PROXY=http://usuario:pass@proxy:puerto
+
+    # Opción A: SOLO detrás de NPM (no publica puerto al host)
+    # Exponés internamente 8000 y NPM llega por la red 'web'
+    #expose:
+    #  - "8001"
+
+    # Opción B (alternativa): si también querés entrar directo desde el host
+    # deja estas dos líneas en lugar de 'expose'
+    ports:
+      - "8001:8000"
+
+    networks:
+      - web
+
+    volumes:
+      - ./data:/srv/overlay-smn/data
+    restart: unless-stopped
+
+networks:
+  web:
+    external: true
+    name: web

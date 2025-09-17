@@ -1,0 +1,109 @@
+/* ===== Overlay SMN — MODO BANNER ===== */
+:root{
+  --banner-scale: 1;         /* 1 = 100% | 0.8, 1.2, etc. */
+  --banner-height: 72px;     /* alto del banner */
+  --banner-radius: 10px;     /* redondeo */
+  --red: #c52522;            /* rojo del módulo derecho */
+  --blue: #115bb6;           /* azul de tag opcional (AM 870) */
+}
+
+/* Contenedor, posición (arriba-izq por defecto) y escala */
+.smn-stage{
+  position: fixed;
+  inset: 12px auto auto 12px;
+  z-index: 99999;
+  transform: scale(var(--banner-scale));
+  transform-origin: top left;
+}
+
+/* ---------- Banner ---------- */
+.banner {
+  height: var(--banner-height);
+  min-width: 780px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: linear-gradient(#ffffff, #ececec);
+  color: #0f0f10;
+  border-radius: var(--banner-radius);
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+  padding: 0 10px 0 14px;
+}
+
+/* Tag opcional a la izquierda (ej. AM 870) */
+.banner-tag{
+  display: inline-flex;
+  align-items: center;
+  height: calc(var(--banner-height) - 20px);
+  padding: 0 12px;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 800;
+  letter-spacing: .6px;
+  margin-right: 8px;
+}
+
+/* Texto principal (ciudad + temperatura) */
+.banner-main{
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  font-weight: 900;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.banner-city{
+  font-size: calc(var(--banner-height) * 0.42);
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60ch;
+}
+.banner-sep{
+  opacity: .35;
+  font-size: calc(var(--banner-height) * 0.38);
+  transform: translateY(-1px);
+}
+.banner-temp{
+  font-size: calc(var(--banner-height) * 0.50);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Módulo rojo derecho: EN VIVO + hora */
+.banner-right{
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 160px;
+  height: calc(var(--banner-height) - 10px);
+  background: var(--red);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  box-shadow: 0 6px 14px rgba(197,37,34,.35);
+}
+.banner-live{
+  font-weight: 900;
+  letter-spacing: .8px;
+  font-size: 0.92rem;
+  margin-bottom: 4px;
+}
+.banner-clock{
+  font-weight: 800;
+  font-size: calc(var(--banner-height) * 0.38);
+  line-height: 1;
+}
+
+/* Animación suave al rotar */
+.banner.hidden{
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity .25s ease, transform .25s ease;
+}

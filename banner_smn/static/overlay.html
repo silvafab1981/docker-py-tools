@@ -1,0 +1,116 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Overlay SMN (fijo)</title>
+<link rel="stylesheet" href="/static/smn-overlay.css"/>
+
+<div class="smn-stage">
+  <div id="card-slot" class="smn-grid">
+    <div class="smn-card">
+      <div class="smn-city">Cargando…</div>
+      <div class="smn-row"><span class="smn-temp">—</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+function renderState(title, value){
+  const slot = document.getElementById('card-slot');
+  slot.innerHTML = `
+    <div class="smn-card">
+      <div class="smn-city">${title}</div>
+      <div class="smn-row"><span class="smn-temp">${value}</span></div>
+    </div>`;
+}
+
+async function getConfig(){
+  const r = await fetch('/api/overlay/config', {cache:'no-store'});
+  if(!r.ok) throw new Error('config ' + r.status);
+  return r.json(); // { cities, labels, cycle, live_every }
+}
+function displayNameFor(it, labels){ return (labels && labels[it.ciudad]) || it.ciudad; }
+function renderTemp(it, labels){
+  const slot = document.getElementById('card-slot');
+  slot.innerHTML = `
+    <div class="smn-card">
+      <div class="smn-city">${displayNameFor(it, labels)}</div>
+      <div class="smn-row"><span class="smn-temp">${(it.temperatura ?? '—')}°C</span></div>
+    </div>`;
+}
+function renderLive(){
+  const hhmm = new Date().toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit', hour12:false});
+  renderState('EN VIVO', hhmm);
+}
+async function fetchData(cities){
+  const qs = new URLSearchParams({ cities: (cities||[]).join(',') });
+  const resp = await fetch('/api/weather?' + qs, {cache:'no-store'});
+  if(!resp.ok) throw new Error('weather ' + resp.status);
+  const data = await resp.json();
+  return data.items || [];
+}
+
+(async function main(){
+  try {
+    const cfg = await getConfig();
+    const cities    = cfg.cities || [];
+    const labels    = cfg.labels || {};
+    const cycle     = Math.max(2, parseInt(cfg.cycle || 15, 10));
+    const liveEvery = Math.max(1, parseInt(cfg.live_every || 5, 10));
+
+    let items = await fetchData(cities);
+    const order = new Map(cities.map((c, i) => [String(c).toLowerCase(), i]));
+    items.sort((a,b)=> (order.get((a.ciudad||'').toLowerCase()) ?? 999) - (order.get((b.ciudad||'').toLowerCase()) ?? 999));
+
+    let idx = 0;
+    let tempsSinceLive = 0;
+
+    function step(){
+      const card = document.querySelector('#card-slot .smn-card');
+      if (card) card.classList.add('hidden');
+      setTimeout(()=> {
+        if (tempsSinceLive >= liveEvery) {
+          renderLive();
+          tempsSinceLive = 0;
+          return;
+        }
+        if (!items.length) {
+          renderLive();
+          return;
+        }
+        const it = items[idx % items.length];
+        renderTemp(it, labels);
+        idx = (idx + 1) % Math.max(items.length, 1);
+        tempsSinceLive++;
+      }, 200);
+    }
+
+    // primer render inmediato
+    if (items.length) {
+      renderTemp(items[0], labels);
+      idx = 1 % items.length;
+      tempsSinceLive = 1;
+    } else {
+      renderLive();
+      tempsSinceLive = 0;
+    }
+
+    setInterval(step, cycle * 1000);
+
+    // refresco de datos cada 60s
+    setInterval(async ()=>{
+      try{
+        const fresh = await fetchData(cities);
+        if (fresh && fresh.length) {
+          fresh.sort((a,b)=> (order.get((a.ciudad||'').toLowerCase()) ?? 999) - (order.get((b.ciudad||'').toLowerCase()) ?? 999));
+          items = fresh;
+          idx = idx % items.length;
+        }
+      }catch(e){ console.warn('refresh error', e); }
+    }, 60000);
+
+  } catch (e) {
+    console.error(e);
+    renderState('Overlay', 'Sin datos');
+  }
+})();
+</script>
